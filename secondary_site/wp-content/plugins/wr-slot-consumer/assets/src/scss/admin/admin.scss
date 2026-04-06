@@ -1,0 +1,114 @@
+/**
+ * WR Slot Consumer admin styles.
+ */
+
+/* ─── Tabs ─── */
+
+.wr-tabs {
+	margin-bottom: 0;
+	border-bottom: none;
+}
+
+.wr-tab {
+	cursor: pointer;
+	border-bottom: 1px solid #c3c4c7;
+}
+
+.wr-tab.nav-tab-active {
+	border-bottom: 3px solid #2271b1;
+
+	&:hover,
+	&:focus {
+		border-bottom: 3px solid #2271b1;
+	}
+}
+
+.wr-tab-panel {
+	margin-top: 1.5rem;
+
+	&[hidden] {
+		display: none;
+	}
+}
+
+/* ─── Card (full width) ─── */
+
+.wr-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	padding: 24px;
+	margin-bottom: 20px;
+
+	h2 {
+		margin-top: 0;
+		margin-bottom: 12px;
+		font-size: 1.2em;
+	}
+}
+
+/* ─── Loading dialog ─── */
+
+dialog {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+
+	&::backdrop {
+		backdrop-filter: blur(5px);
+	}
+}
+
+/* ─── Ripple loader ─── */
+
+.wr-ripple {
+	display: inline-block;
+	position: relative;
+	width: 80px;
+	height: 80px;
+
+	div {
+		position: absolute;
+		border: 4px solid #2271b1;
+		opacity: 1;
+		border-radius: 50%;
+		animation: wr-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+
+		&:nth-child(2) {
+			animation-delay: -0.5s;
+		}
+	}
+}
+
+@keyframes wr-ripple {
+	0% {
+		top: 36px;
+		left: 36px;
+		width: 0;
+		height: 0;
+		opacity: 0;
+	}
+
+	4.9% {
+		top: 36px;
+		left: 36px;
+		width: 0;
+		height: 0;
+		opacity: 0;
+	}
+
+	5% {
+		top: 36px;
+		left: 36px;
+		width: 0;
+		height: 0;
+		opacity: 1;
+	}
+
+	100% {
+		top: 0;
+		left: 0;
+		width: 72px;
+		height: 72px;
+		opacity: 0;
+	}
+}

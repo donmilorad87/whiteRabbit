@@ -1,0 +1,209 @@
+# Serbian (Cyrillic) translation for WR Slot Manager
+# Copyright (C) 2026 WiseRabbit
+msgid ""
+msgstr ""
+"Project-Id-Version: WR Slot Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-06 00:00+0000\n"
+"PO-Revision-Date: 2026-04-06 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Serbian\n"
+"Language: sr_RS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: wr-slot-manager\n"
+
+#. Post Type Labels
+msgid "Slots"
+msgstr "Слотови"
+
+msgid "Slot"
+msgstr "Слот"
+
+msgid "Add New Slot"
+msgstr "Додај нови слот"
+
+msgid "Edit Slot"
+msgstr "Уреди слот"
+
+msgid "New Slot"
+msgstr "Нови слот"
+
+msgid "View Slot"
+msgstr "Прикажи слот"
+
+msgid "Search Slots"
+msgstr "Претражи слотове"
+
+msgid "No slots found"
+msgstr "Нема пронађених слотова"
+
+msgid "No slots found in Trash"
+msgstr "Нема слотова у корпи"
+
+msgid "All Slots"
+msgstr "Сви слотови"
+
+msgid "Slot Manager"
+msgstr "Менаџер слотова"
+
+#. Settings Page — Tabs
+msgid "Settings"
+msgstr "Подешавања"
+
+msgid "Slot Manager Settings"
+msgstr "Подешавања менаџера слотова"
+
+msgid "Connected Sites"
+msgstr "Повезани сајтови"
+
+msgid "API Settings"
+msgstr "API подешавања"
+
+msgid "Cache Configuration"
+msgstr "Подешавања кеша"
+
+#. Settings — Connected Sites Tab
+msgid "Add New Site"
+msgstr "Додај нови сајт"
+
+msgid "Site URL"
+msgstr "URL сајта"
+
+msgid "Full URL of the secondary site (include port if needed)."
+msgstr "Пуна URL адреса секундарног сајта (укључите порт ако је потребно)."
+
+msgid "Add Site"
+msgstr "Додај сајт"
+
+msgid "Registered Sites"
+msgstr "Регистровани сајтови"
+
+msgid "No connected sites yet."
+msgstr "Нема повезаних сајтова."
+
+msgid "#"
+msgstr "#"
+
+msgid "Actions"
+msgstr "Акције"
+
+msgid "Update"
+msgstr "Ажурирај"
+
+msgid "Remove"
+msgstr "Уклони"
+
+#. Settings — API Tab
+msgid "API Key"
+msgstr "API кључ"
+
+msgid "Share this key with secondary sites for authentication. Keep it secure."
+msgstr "Поделите овај кључ са секундарним сајтовима за аутентификацију. Чувајте га безбедно."
+
+msgid "No API key has been generated yet."
+msgstr "API кључ још увек није генерисан."
+
+msgid "Generate API Key"
+msgstr "Генериши API кључ"
+
+msgid "Regenerate API Key"
+msgstr "Поново генериши API кључ"
+
+msgid "API Rate Limit"
+msgstr "API ограничење брзине"
+
+msgid "Requests per minute"
+msgstr "Захтева у минуту"
+
+msgid "Maximum REST API requests per IP address per minute."
+msgstr "Максималан број REST API захтева по IP адреси у минуту."
+
+#. Settings — Cache Tab
+msgid "Redis Cache"
+msgstr "Redis кеш"
+
+msgid "Cache Expiry (minutes)"
+msgstr "Истек кеша (минути)"
+
+msgid "How long slot data is stored in Redis before rebuilding from the database."
+msgstr "Колико дуго се подаци о слотовима чувају у Redis-у пре поновног учитавања из базе."
+
+msgid "Save Settings"
+msgstr "Сачувај подешавања"
+
+#. AJAX Responses
+msgid "Security check failed."
+msgstr "Безбедносна провера није успела."
+
+msgid "Unauthorized."
+msgstr "Неовлашћен приступ."
+
+msgid "API key generated."
+msgstr "API кључ је генерисан."
+
+msgid "Site list updated."
+msgstr "Листа сајтова је ажурирана."
+
+msgid "Settings saved."
+msgstr "Подешавања су сачувана."
+
+msgid "Failed to retrieve slots."
+msgstr "Преузимање слотова није успело."
+
+#. Editor: Slot Fields Block
+msgid "Title"
+msgstr "Наслов"
+
+msgid "Description"
+msgstr "Опис"
+
+msgid "Star Rating"
+msgstr "Оцена звездица"
+
+msgid "Value between 0 and 5 (step 0.5)"
+msgstr "Вредност између 0 и 5 (корак 0.5)"
+
+msgid "Min: 0, Max: 5"
+msgstr "Мин: 0, Макс: 5"
+
+msgid "Slot Image"
+msgstr "Слика слота"
+
+msgid "Replace"
+msgstr "Замени"
+
+msgid "Select Image"
+msgstr "Изабери слику"
+
+msgid "Provider Name"
+msgstr "Назив провајдера"
+
+msgid "RTP (%)"
+msgstr "RTP (%)"
+
+msgid "Value between 0 and 100"
+msgstr "Вредност између 0 и 100"
+
+msgid "Min: 0, Max: 100"
+msgstr "Мин: 0, Макс: 100"
+
+msgid "Min Wager"
+msgstr "Мин улог"
+
+msgid "Max Wager"
+msgstr "Макс улог"
+
+msgid "Save Slot"
+msgstr "Сачувај слот"
+
+msgid "Saving..."
+msgstr "Чување..."
+
+msgid "Slot saved."
+msgstr "Слот је сачуван."
+
+msgid "Save failed."
+msgstr "Чување није успело."

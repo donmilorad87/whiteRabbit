@@ -1,0 +1,13 @@
+# Ignore all 3rd party themes
+*
+*/*
+
+# Keep this .gitignore
+!.gitignore
+
+# ===================================
+# Custom themes - add entries below
+# ===================================
+# To track a custom theme, add two lines:
+# !my-theme-name
+# !my-theme-name/**

@@ -1,0 +1,20 @@
+{
+  "translation-revision-date": "2026-04-07 00:00+0000",
+  "generator": "script",
+  "source": "includes/block/slot-detail-block/block.json",
+  "domain": "wr-slot-consumer",
+  "locale_data": {
+    "wr-slot-consumer": {
+      "": {
+        "domain": "wr-slot-consumer",
+        "lang": "sr_RS"
+      },
+      "Dedicated page for a single slot game with full details and styling controls.": [
+        "Наменска страница за једну слот игру са потпуним детаљима и контролом стилова."
+      ],
+      "Slot Detail": [
+        "Детаљи слота"
+      ]
+    }
+  }
+}

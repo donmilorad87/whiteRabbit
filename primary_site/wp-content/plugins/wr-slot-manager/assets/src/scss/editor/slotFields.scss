@@ -1,0 +1,70 @@
+/**
+ * Slot Fields block editor styles.
+ */
+
+/* Hide native post title for slot CPT. */
+.post-type-slot .editor-post-title {
+	display: none;
+}
+
+.wr-sm-slot-fields {
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	padding: 24px;
+	background: #f9f9f9;
+	margin: 16px 0;
+
+	&__label {
+		display: block;
+		font-weight: 600;
+		margin-bottom: 8px;
+		font-size: 13px;
+	}
+
+	&__section {
+		margin-bottom: 20px;
+
+		textarea {
+			width: 100%;
+			resize: vertical;
+		}
+	}
+
+	&__image-preview {
+		img {
+			max-width: 100%;
+			max-height: 300px;
+			border-radius: 4px;
+			border: 1px solid #ddd;
+			display: block;
+			object-fit: cover;
+		}
+	}
+
+	&__image-actions {
+		display: flex;
+		gap: 12px;
+		margin-top: 8px;
+		align-items: center;
+	}
+
+	&__image-placeholder {
+		min-height: 150px;
+	}
+
+	&__wager-row {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 16px;
+		margin-bottom: 20px;
+
+		@media (max-width: 600px) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	&__save {
+		padding-top: 8px;
+		border-top: 1px solid #e0e0e0;
+	}
+}

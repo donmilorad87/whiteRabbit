@@ -1,0 +1,109 @@
+services:
+  nginx:
+    build:
+      context: ./Docker/nginx
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - wordpress
+      - phpmyadmin
+    restart: unless-stopped
+    networks:
+      - wp_network
+
+  wordpress:
+    build:
+      context: ./Docker/wordpress
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    environment:
+      WORDPRESS_DB_HOST: ${WORDPRESS_DB_HOST}
+      WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
+      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
+      WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME}
+      WORDPRESS_TABLE_PREFIX: ${WORDPRESS_TABLE_PREFIX}
+      WORDPRESS_URL: ${WORDPRESS_URL}
+      WORDPRESS_TITLE: ${WORDPRESS_TITLE}
+      WORDPRESS_ADMIN_USER: ${WORDPRESS_ADMIN_USER}
+      WORDPRESS_ADMIN_PASSWORD: ${WORDPRESS_ADMIN_PASSWORD}
+      WORDPRESS_ADMIN_EMAIL: ${WORDPRESS_ADMIN_EMAIL}
+      INSTALL_PLUGINS: ${INSTALL_PLUGINS}
+      ACTIVATE_PLUGINS: ${ACTIVATE_PLUGINS}
+      INSTALL_THEMES: ${INSTALL_THEMES}
+      ACTIVATE_THEMES: ${ACTIVATE_THEMES}
+      WP_REDIS_HOST: redis
+      ENVIRONMENT: ${ENVIRONMENT:-prod}
+      WR_THEME_ENABLED: ${WR_THEME_ENABLED:-true}
+    volumes:
+      - ./wp-content/plugins:/var/www/html/wp-content/plugins
+      - ./wp-content/themes:/var/www/html/wp-content/themes
+      - ./wp-content/uploads:/var/www/html/wp-content/uploads
+      - build_state:/build_state
+    extra_hosts:
+      - "sec.wiserabbit.com:host-gateway"
+    depends_on:
+      - mysql
+      - redis
+    restart: unless-stopped
+    networks:
+      - wp_network
+
+  redis:
+    build:
+      context: ./Docker/redis
+      dockerfile: Dockerfile
+    environment:
+      REDIS_PORT: ${REDIS_PORT:-6379}
+      REDIS_MAXMEMORY: ${REDIS_MAXMEMORY:-128mb}
+      REDIS_MAXMEMORY_POLICY: ${REDIS_MAXMEMORY_POLICY:-allkeys-lru}
+      REDIS_LOGLEVEL: ${REDIS_LOGLEVEL:-notice}
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    networks:
+      - wp_network
+
+  mysql:
+    build:
+      context: ./Docker/mysql
+      dockerfile: Dockerfile
+    ports:
+      - "3306:3306"
+    env_file:
+      - .env
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - mysql_data:/var/lib/mysql
+    restart: unless-stopped
+    networks:
+      - wp_network
+
+  phpmyadmin:
+    build:
+      context: ./Docker/phpmyadmin
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    environment:
+      PMA_HOST: ${PMA_HOST}
+      PMA_ABSOLUTE_URI: ${PMA_ABSOLUTE_URI}
+    depends_on:
+      - mysql
+    restart: unless-stopped
+    networks:
+      - wp_network
+
+volumes:
+  mysql_data:
+  redis_data:
+  build_state:
+
+networks:
+  wp_network:
+    driver: bridge

@@ -1,0 +1,92 @@
+# Copyright (C) 2026 WiseRabbit
+# This file is distributed under the same license as the WR Slot Consumer plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WR Slot Consumer 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-06 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: wr-slot-consumer\n"
+
+#. Admin: Settings Page
+#: templates/admin/settings.php
+msgid "Slot Consumer Settings"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Primary Site Connection"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Source Site URL"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Full URL of the primary site running WR Slot Manager."
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "API Key"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Must match the API key configured on the primary site."
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Save Settings"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Manual Sync"
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Fetch all slot data from the primary site and rebuild the local cache."
+msgstr ""
+
+#: templates/admin/settings.php
+msgid "Sync Data"
+msgstr ""
+
+#. Admin: Menu
+#: src/Admin/SettingsPage.php
+msgid "Slot Consumer"
+msgstr ""
+
+#. Admin: AJAX Responses
+#: src/Admin/SettingsPage.php
+msgid "Security check failed."
+msgstr ""
+
+#: src/Admin/SettingsPage.php
+msgid "Settings saved."
+msgstr ""
+
+#. Sync Responses
+#: src/Sync/SlotSyncManager.php
+msgid "Unauthorized."
+msgstr ""
+
+#. translators: %d: number of slots synced
+#: src/Sync/SlotSyncManager.php
+msgid "Successfully synced %d slots."
+msgstr ""
+
+#: src/Sync/SlotSyncManager.php
+msgid "Source URL and API key must be configured."
+msgstr ""
+
+#: src/Sync/SlotSyncManager.php
+msgid "Primary API returned HTTP %d."
+msgstr ""
+
+#: src/Sync/SlotSyncManager.php
+msgid "Invalid response from primary API."
+msgstr ""

@@ -1,0 +1,151 @@
+/**
+ * Slot Detail block — frontend styles with CSS custom properties.
+ */
+
+.wr-sc-slot-detail {
+	max-width: 860px;
+	margin: 0 auto;
+	padding: var(--sp-pad, 0);
+	background: var(--sp-bg, transparent);
+	border-radius: var(--sp-radius, 12px);
+
+	&__image {
+		position: relative;
+		border-radius: var(--sp-img-radius, 12px);
+		overflow: hidden;
+		margin-bottom: 32px;
+
+		img {
+			width: 100%;
+			max-height: var(--sp-img-max-h, 420px);
+			object-fit: cover;
+			display: block;
+		}
+	}
+
+	&__body {
+		padding: 0;
+	}
+
+	&__title {
+		margin: 0 0 14px;
+		font-size: var(--sp-title-size, clamp(1.6rem, 4vw, 2.4rem));
+		font-weight: var(--sp-title-weight, 750);
+		color: var(--sp-title-color, #18181b);
+		line-height: 1.2;
+		letter-spacing: -0.025em;
+	}
+
+	&__rating {
+		display: flex;
+		align-items: center;
+		gap: 3px;
+		margin-bottom: 24px;
+	}
+
+	&__star {
+		font-size: var(--sp-stars-size, 20px);
+		line-height: 1;
+
+		&--full {
+			color: var(--sp-stars-color, #f0b429);
+		}
+
+		&--half {
+			color: var(--sp-stars-half, #e2c773);
+		}
+
+		&--empty {
+			color: #d4d4d8;
+		}
+	}
+
+	&__rating-text {
+		margin-left: 10px;
+		font-size: 0.85rem;
+		font-weight: 500;
+		color: #71717a;
+	}
+
+	&__description {
+		margin-bottom: 32px;
+		font-size: var(--sp-desc-size, 1.05rem);
+		line-height: 1.75;
+		color: var(--sp-desc-color, #3f3f46);
+		max-width: 680px;
+
+		p {
+			margin: 0 0 1em;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	&__meta {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		gap: 0;
+		margin: 0;
+		padding: 0;
+		background: var(--sp-meta-bg, #f8f8fa);
+		border: 1px solid var(--sp-meta-border, #e4e4e7);
+		border-radius: var(--sp-meta-radius, 12px);
+		overflow: hidden;
+	}
+
+	&__meta-item {
+		padding: 20px 24px;
+
+		& + & {
+			border-left: 1px solid var(--sp-meta-border, #e4e4e7);
+		}
+
+		dt {
+			font-size: 0.72rem;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 0.06em;
+			color: var(--sp-meta-label, #71717a);
+			margin-bottom: 6px;
+		}
+
+		dd {
+			margin: 0;
+			font-size: 1.15rem;
+			font-weight: 650;
+			color: var(--sp-meta-value, #18181b);
+			letter-spacing: -0.01em;
+		}
+
+		@media (max-width: 600px) {
+			& + & {
+				border-left: none;
+				border-top: 1px solid var(--sp-meta-border, #e4e4e7);
+			}
+		}
+	}
+
+	@media (max-width: 600px) {
+		&__meta {
+			grid-template-columns: 1fr;
+		}
+	}
+}
+
+.wr-sc-slot-detail-empty {
+	max-width: 860px;
+	margin: 0 auto;
+	padding: 48px 24px;
+	text-align: center;
+	background: #f8f8fa;
+	border: 1.5px dashed #d4d4d8;
+	border-radius: 12px;
+
+	p {
+		color: #71717a;
+		margin: 0;
+		font-size: 0.95rem;
+	}
+}

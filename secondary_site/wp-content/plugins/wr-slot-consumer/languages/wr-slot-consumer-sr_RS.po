@@ -1,0 +1,424 @@
+# Serbian (Cyrillic) translation for WR Slot Consumer
+# Copyright (C) 2026 WiseRabbit
+msgid ""
+msgstr ""
+"Project-Id-Version: WR Slot Consumer 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-06 00:00+0000\n"
+"PO-Revision-Date: 2026-04-06 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Serbian\n"
+"Language: sr_RS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: wr-slot-consumer\n"
+
+#. Admin Menu
+msgid "Slot Consumer"
+msgstr "Слот потрошач"
+
+#. Settings Page — Tabs
+msgid "Slot Consumer Settings"
+msgstr "Подешавања Слот Потрошача"
+
+msgid "Connection"
+msgstr "Повезивање"
+
+msgid "Cache & Rate Limit"
+msgstr "Кеш и ограничење брзине"
+
+msgid "API Settings"
+msgstr "API подешавања"
+
+msgid "Cache"
+msgstr "Кеш"
+
+msgid "Cache Configuration"
+msgstr "Подешавања кеша"
+
+msgid "Rate Limit (requests/minute)"
+msgstr "Ограничење брзине (захтева/минут)"
+
+msgid "Manual Sync"
+msgstr "Ручна синхронизација"
+
+#. Connection Tab
+msgid "Primary Site Connection"
+msgstr "Веза са примарним сајтом"
+
+msgid "Source Site URL"
+msgstr "URL изворног сајта"
+
+msgid "Full URL of the primary site running WR Slot Manager."
+msgstr "Пуна URL адреса примарног сајта на ком ради WR Slot Manager."
+
+msgid "API Key"
+msgstr "API кључ"
+
+msgid "Must match the API key configured on the primary site."
+msgstr "Мора да одговара API кључу конфигурисаном на примарном сајту."
+
+msgid "Save Settings"
+msgstr "Сачувај подешавања"
+
+#. Cache Tab
+msgid "Cache Expiry (minutes)"
+msgstr "Истек кеша (минути)"
+
+msgid "How long slot data is cached before refreshing from the primary site."
+msgstr "Колико дуго се подаци о слотовима кеширају пре освежавања са примарног сајта."
+
+msgid "API Rate Limit (requests/minute)"
+msgstr "API ограничење брзине (захтева/минут)"
+
+msgid "Maximum webhook requests per IP address per minute."
+msgstr "Максималан број webhook захтева по IP адреси у минуту."
+
+#. Sync Tab
+msgid "Fetch all slot data from the primary site and rebuild the local cache."
+msgstr "Преузми све податке о слотовима са примарног сајта и поново изгради локални кеш."
+
+msgid "Sync Data"
+msgstr "Синхронизуј податке"
+
+#. AJAX Responses
+msgid "Security check failed."
+msgstr "Безбедносна провера није успела."
+
+msgid "Settings saved."
+msgstr "Подешавања су сачувана."
+
+msgid "Unauthorized."
+msgstr "Неовлашћен приступ."
+
+#. translators: %d: number of slots synced
+msgid "Successfully synced %d slots."
+msgstr "Успешно синхронизовано %d слотова."
+
+msgid "Source URL and API key must be configured."
+msgstr "URL извора и API кључ морају бити конфигурисани."
+
+msgid "Primary API returned HTTP %d."
+msgstr "Примарни API је вратио HTTP %d."
+
+msgid "Invalid response from primary API."
+msgstr "Неисправан одговор од примарног API-ја."
+
+#. Block: Slot Grid
+msgid "Slots Grid"
+msgstr "Мрежа слотова"
+
+msgid "Display slot games in a responsive grid with full styling controls."
+msgstr "Прикажите слот игре у респонзивној мрежи са пуном контролом стилова."
+
+msgid "More Info"
+msgstr "Више информација"
+
+msgid "No slots available. Please sync data from the primary site."
+msgstr "Нема доступних слотова. Синхронизујте податке са примарног сајта."
+
+msgid "Slot pages"
+msgstr "Странице слотова"
+
+msgid "Prev"
+msgstr "Претходна"
+
+msgid "Next"
+msgstr "Следећа"
+
+msgid "Load More"
+msgstr "Учитај још"
+
+#. Block: Slot Grid — Editor Panels
+msgid "Display"
+msgstr "Приказ"
+
+msgid "Columns"
+msgstr "Колоне"
+
+msgid "Items Per Page"
+msgstr "Ставки по страници"
+
+msgid "Number of slots shown per page/load."
+msgstr "Број слотова приказаних по страници/учитавању."
+
+msgid "Sort By"
+msgstr "Сортирај по"
+
+msgid "Pagination"
+msgstr "Пагинација"
+
+msgid "Off"
+msgstr "Искључено"
+
+msgid "Page Numbers"
+msgstr "Бројеви страница"
+
+msgid "Load More Type"
+msgstr "Тип учитавања"
+
+msgid "Button"
+msgstr "Дугме"
+
+msgid "Infinite Scroll"
+msgstr "Бесконачно скроловање"
+
+msgid "Block Background"
+msgstr "Позадина блока"
+
+msgid "Block Padding"
+msgstr "Унутрашњи размак блока"
+
+msgid "Block Border Radius"
+msgstr "Заобљеност ивице блока"
+
+msgid "Enable Background"
+msgstr "Укључи позадину"
+
+msgid "More Info Action"
+msgstr "Акција више информација"
+
+msgid "Click Action"
+msgstr "Акција при клику"
+
+msgid "Open Detail Page"
+msgstr "Отвори страницу детаља"
+
+msgid "Show Popup"
+msgstr "Прикажи искачући прозор"
+
+msgid "Detail Page URL"
+msgstr "URL странице детаља"
+
+msgid "Card Styling"
+msgstr "Стилизовање картице"
+
+msgid "Card Hover"
+msgstr "Ефекат при преласку"
+
+msgid "Stars"
+msgstr "Звездице"
+
+msgid "More Info Button"
+msgstr "Дугме више информација"
+
+msgid "Show Button"
+msgstr "Прикажи дугме"
+
+msgid "Button Label"
+msgstr "Натпис дугмета"
+
+msgid "Provider Text"
+msgstr "Текст провајдера"
+
+#. Block: Slot Detail
+msgid "Slot Detail"
+msgstr "Детаљи слота"
+
+msgid "No slot selected or slot not found."
+msgstr "Ниједан слот није изабран или слот није пронађен."
+
+msgid "Provider"
+msgstr "Провајдер"
+
+msgid "RTP"
+msgstr "RTP"
+
+msgid "Wager Range"
+msgstr "Опсег улога"
+
+#. Block: Slot Page
+msgid "Slot Page"
+msgstr "Страница слота"
+
+msgid "Dedicated page for a single slot game with full details and styling controls."
+msgstr "Наменска страница за једну слот игру са потпуним детаљима и контролом стилова."
+
+msgid "Select Slot"
+msgstr "Изабери слот"
+
+msgid "— Select a Slot —"
+msgstr "— Изабери слот —"
+
+msgid "Visible Sections"
+msgstr "Видљиве секције"
+
+msgid "Please select a slot from the block settings."
+msgstr "Изаберите слот из подешавања блока."
+
+msgid "Padding"
+msgstr "Унутрашњи размак"
+
+msgid "Border Radius"
+msgstr "Заобљеност ивице"
+
+msgid "Background Color"
+msgstr "Боја позадине"
+
+msgid "Max Height (px)"
+msgstr "Максимална висина (px)"
+
+msgid "Font Size (px)"
+msgstr "Величина фонта (px)"
+
+msgid "Font Weight"
+msgstr "Дебљина фонта"
+
+msgid "Title Color"
+msgstr "Боја наслова"
+
+msgid "Description Color"
+msgstr "Боја описа"
+
+msgid "Star Size (px)"
+msgstr "Величина звездице (px)"
+
+msgid "Full Star Color"
+msgstr "Боја пуне звездице"
+
+msgid "Half Star Color"
+msgstr "Боја полу звездице"
+
+msgid "Star Border Color"
+msgstr "Боја ивице звездице"
+
+msgid "Meta Info"
+msgstr "Мета информације"
+
+msgid "Label Color"
+msgstr "Боја ознаке"
+
+msgid "Value Color"
+msgstr "Боја вредности"
+
+msgid "Border Color"
+msgstr "Боја ивице"
+
+msgid "Untitled"
+msgstr "Без наслова"
+
+msgid "Data Source"
+msgstr "Извор података"
+
+msgid "Slot ID"
+msgstr "ID слота"
+
+msgid "Set to 0 to read from ?slot_detail= URL parameter."
+msgstr "Поставите на 0 за читање из ?slot_detail= URL параметра."
+
+msgid "RTP %"
+msgstr "RTP %"
+
+#. Block Editor — Missing translations
+msgid "Background"
+msgstr "Позадина"
+
+msgid "Blur"
+msgstr "Замагљење"
+
+msgid "Box Shadow"
+msgstr "Сенка оквира"
+
+msgid "Box Shadow CSS"
+msgstr "CSS сенке оквира"
+
+msgid "Card Background"
+msgstr "Позадина картице"
+
+msgid "Clicking \"More Info\" will open a popup with all slot details."
+msgstr "Кликом на \"Више информација\" отвара се искачући прозор са свим детаљима слота."
+
+msgid "Color"
+msgstr "Боја"
+
+msgid "CSS Background"
+msgstr "CSS позадина"
+
+msgid "Custom CSS (gradient etc.)"
+msgstr "Прилагођени CSS (градијент итд.)"
+
+msgid "Custom Shadow (raw CSS)"
+msgstr "Прилагођена сенка (CSS)"
+
+msgid "Description"
+msgstr "Опис"
+
+msgid "Gap (px)"
+msgstr "Размак (px)"
+
+msgid "Hover Background"
+msgstr "Позадина при преласку"
+
+msgid "Hover Border Color"
+msgstr "Боја ивице при преласку"
+
+msgid "Hover Shadow CSS"
+msgstr "CSS сенке при преласку"
+
+msgid "Hover State"
+msgstr "Стање при преласку"
+
+msgid "Hover Text Color"
+msgstr "Боја текста при преласку"
+
+msgid "Image"
+msgstr "Слика"
+
+msgid "Info"
+msgstr "Инфо"
+
+msgid "Info Font Size"
+msgstr "Величина инфо фонта"
+
+msgid "Info Text Color"
+msgstr "Боја инфо текста"
+
+msgid "Inner Padding"
+msgstr "Унутрашњи размак"
+
+msgid "Inset"
+msgstr "Унутрашња"
+
+msgid "Lift (translateY px)"
+msgstr "Подизање (translateY px)"
+
+msgid "Line Height"
+msgstr "Висина линије"
+
+msgid "Outer Padding"
+msgstr "Спољашњи размак"
+
+msgid "Shadow Color"
+msgstr "Боја сенке"
+
+msgid "Slot"
+msgstr "Слот"
+
+msgid "Slot ID appended as ?slot_detail=ID"
+msgstr "ID слота се додаје као ?slot_detail=ID"
+
+msgid "Spread"
+msgstr "Ширење"
+
+msgid "Star Rating"
+msgstr "Оцена звездица"
+
+msgid "Style"
+msgstr "Стил"
+
+msgid "Text Color"
+msgstr "Боја текста"
+
+msgid "Text Shadow"
+msgstr "Сенка текста"
+
+msgid "Text Shadow Color"
+msgstr "Боја сенке текста"
+
+msgid "Title"
+msgstr "Наслов"
+
+msgid "Weight"
+msgstr "Дебљина"

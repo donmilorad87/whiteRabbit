@@ -1,0 +1,52 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wr-slot-consumer/slot-detail",
+	"version": "1.0.0",
+	"title": "Slot Detail",
+	"category": "widgets",
+	"icon": "info-outline",
+	"description": "Dedicated page for a single slot game with full details and styling controls.",
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ]
+	},
+	"attributes": {
+		"slotId": { "type": "number", "default": 0 },
+
+		"showImage": { "type": "boolean", "default": true },
+		"showRating": { "type": "boolean", "default": true },
+		"showDescription": { "type": "boolean", "default": true },
+		"showProvider": { "type": "boolean", "default": true },
+		"showRtp": { "type": "boolean", "default": true },
+		"showWager": { "type": "boolean", "default": true },
+
+		"bgColor": { "type": "string", "default": "" },
+		"bgPadding": { "type": "number", "default": 0 },
+		"bgBorderRadius": { "type": "number", "default": 12 },
+
+		"titleColor": { "type": "string", "default": "" },
+		"titleFontSize": { "type": "number", "default": 0 },
+		"titleFontWeight": { "type": "string", "default": "750" },
+
+		"descColor": { "type": "string", "default": "" },
+		"descFontSize": { "type": "number", "default": 0 },
+
+		"metaBgColor": { "type": "string", "default": "" },
+		"metaBorderColor": { "type": "string", "default": "" },
+		"metaBorderRadius": { "type": "number", "default": 12 },
+		"metaLabelColor": { "type": "string", "default": "" },
+		"metaValueColor": { "type": "string", "default": "" },
+
+		"starsColor": { "type": "string", "default": "#f0b429" },
+		"starsHalfColor": { "type": "string", "default": "#e2c773" },
+		"starsBorderColor": { "type": "string", "default": "" },
+		"starsFontSize": { "type": "number", "default": 20 },
+
+		"imageBorderRadius": { "type": "number", "default": 12 },
+		"imageMaxHeight": { "type": "number", "default": 420 }
+	},
+	"textdomain": "wr-slot-consumer",
+	"editorScript": "wr-sc-slot-detail-editor",
+	"style": "wr-sc-slot-detail-style"
+}

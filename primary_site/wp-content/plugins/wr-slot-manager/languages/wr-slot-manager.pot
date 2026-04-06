@@ -1,0 +1,226 @@
+# Copyright (C) 2026 WiseRabbit
+# This file is distributed under the same license as the WR Slot Manager plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WR Slot Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-06 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: wr-slot-manager\n"
+
+#. Post Type: Labels
+#: src/PostType/SlotPostType.php
+msgid "Slots"
+msgstr ""
+
+#: src/PostType/SlotPostType.php
+msgid "Slot"
+msgstr ""
+
+#: src/PostType/SlotPostType.php
+msgid "Add New Slot"
+msgstr ""
+
+#: src/PostType/SlotPostType.php
+msgid "Edit Slot"
+msgstr ""
+
+#: src/PostType/SlotPostType.php
+msgid "New Slot"
+msgstr ""
+
+#: src/PostType/SlotPostType.php
+msgid "View Slot"
+msgstr ""
+
+#: src/PostType/SlotPostType.php
+msgid "Search Slots"
+msgstr ""
+
+#: src/PostType/SlotPostType.php
+msgid "No slots found"
+msgstr ""
+
+#: src/PostType/SlotPostType.php
+msgid "No slots found in Trash"
+msgstr ""
+
+#: src/PostType/SlotPostType.php
+msgid "All Slots"
+msgstr ""
+
+#: src/PostType/SlotPostType.php
+msgid "Slot Manager"
+msgstr ""
+
+#. Admin: API Key Page
+#: templates/admin/api-key.php
+msgid "API Key Management"
+msgstr ""
+
+#: templates/admin/api-key.php
+msgid "Current API Key"
+msgstr ""
+
+#: templates/admin/api-key.php
+msgid "Share this key with secondary sites for authentication. Keep it secure."
+msgstr ""
+
+#: templates/admin/api-key.php
+msgid "No API key has been generated yet."
+msgstr ""
+
+#: templates/admin/api-key.php
+msgid "Generate API Key"
+msgstr ""
+
+#: templates/admin/api-key.php
+msgid "Regenerate API Key"
+msgstr ""
+
+#. Admin: Connected Sites Page
+#: templates/admin/connected-sites.php
+msgid "Connected Sites"
+msgstr ""
+
+#: templates/admin/connected-sites.php
+msgid "Add New Site"
+msgstr ""
+
+#: templates/admin/connected-sites.php
+msgid "Site URL"
+msgstr ""
+
+#: templates/admin/connected-sites.php
+msgid "Full URL of the secondary site (include port if needed)."
+msgstr ""
+
+#: templates/admin/connected-sites.php
+msgid "Add Site"
+msgstr ""
+
+#: templates/admin/connected-sites.php
+msgid "Registered Sites"
+msgstr ""
+
+#: templates/admin/connected-sites.php
+msgid "No connected sites yet."
+msgstr ""
+
+#: templates/admin/connected-sites.php
+msgid "#"
+msgstr ""
+
+#: templates/admin/connected-sites.php
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/connected-sites.php
+msgid "Update"
+msgstr ""
+
+#: templates/admin/connected-sites.php
+msgid "Remove"
+msgstr ""
+
+#. Admin: Menu
+#: src/Admin/ApiKeyPage.php
+msgid "API Key"
+msgstr ""
+
+#. Admin: AJAX Responses
+#: src/Admin/ApiKeyPage.php src/Admin/ConnectedSitesPage.php
+msgid "Security check failed."
+msgstr ""
+
+#: src/Admin/ApiKeyPage.php src/Admin/ConnectedSitesPage.php
+msgid "Unauthorized."
+msgstr ""
+
+#: src/Admin/ApiKeyPage.php
+msgid "API key generated."
+msgstr ""
+
+#: src/Admin/ConnectedSitesPage.php
+msgid "Site list updated."
+msgstr ""
+
+#. Editor: Slot Fields Block
+#: assets/src/js/editor/slotFields.js
+msgid "Title"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Description"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Star Rating"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Value between 0 and 5 (step 0.5)"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Min: 0, Max: 5"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Slot Image"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Replace"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Select Image"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Provider Name"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "RTP (%)"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Value between 0 and 100"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Min: 0, Max: 100"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Min Wager"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Max Wager"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Save Slot"
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Saving..."
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Slot saved."
+msgstr ""
+
+#: assets/src/js/editor/slotFields.js
+msgid "Save failed."
+msgstr ""
+

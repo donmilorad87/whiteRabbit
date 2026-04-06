@@ -1,0 +1,18 @@
+# Environment variables
+# .env
+
+# MySQL data
+mysql_data/
+
+# WordPress uploads (not tracked)
+wp-content/uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,15 @@
+# Ignore all 3rd party plugins
+*
+*/*
+
+# Keep this .gitignore
+!.gitignore
+
+# ===================================
+# Custom plugins - add entries below
+# ===================================
+# To track a custom plugin, add two lines:
+# !my-plugin-name
+# !my-plugin-name/**
+!wr-slot-consumer
+!wr-slot-consumer/**

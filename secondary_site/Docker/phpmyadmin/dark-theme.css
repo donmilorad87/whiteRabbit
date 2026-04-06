@@ -1,0 +1,158 @@
+/*
+ * phpMyAdmin Dark Theme Override
+ * Applied globally to force dark appearance
+ */
+
+:root {
+    color-scheme: dark;
+}
+
+body {
+    background-color: #1e1e2e !important;
+    color: #cdd6f4 !important;
+}
+
+#pma_navigation {
+    background-color: #181825 !important;
+    color: #cdd6f4 !important;
+}
+
+#pma_navigation .highlight,
+#pma_navigation a {
+    color: #cdd6f4 !important;
+}
+
+#pma_navigation .list_container {
+    background-color: #181825 !important;
+}
+
+#pma_navigation .warp_link {
+    background-color: #1e1e2e !important;
+}
+
+.server_collation,
+.server_databases,
+#serverStatusTabs,
+#topmenu,
+#topmenucontainer {
+    background-color: #1e1e2e !important;
+    color: #cdd6f4 !important;
+}
+
+#topmenu .tabactive {
+    background-color: #313244 !important;
+}
+
+#topmenu a,
+#topmenu .tab {
+    color: #cdd6f4 !important;
+}
+
+table.data,
+table.data th,
+table.data td {
+    background-color: #1e1e2e !important;
+    color: #cdd6f4 !important;
+    border-color: #45475a !important;
+}
+
+table.data tr:nth-child(odd) td,
+table.data tr.odd td {
+    background-color: #181825 !important;
+}
+
+table.data tr:nth-child(even) td,
+table.data tr.even td {
+    background-color: #1e1e2e !important;
+}
+
+table.data tr:hover td {
+    background-color: #313244 !important;
+}
+
+table.data th {
+    background-color: #313244 !important;
+    color: #cdd6f4 !important;
+}
+
+.tblHeaders,
+.tblFooters {
+    background-color: #313244 !important;
+    color: #cdd6f4 !important;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+select,
+textarea {
+    background-color: #313244 !important;
+    color: #cdd6f4 !important;
+    border-color: #45475a !important;
+}
+
+.CodeMirror {
+    background-color: #1e1e2e !important;
+    color: #cdd6f4 !important;
+}
+
+.CodeMirror-gutters {
+    background-color: #181825 !important;
+    border-color: #45475a !important;
+}
+
+a {
+    color: #89b4fa !important;
+}
+
+a:hover {
+    color: #b4befe !important;
+}
+
+.notice,
+.success {
+    background-color: #313244 !important;
+    color: #a6e3a1 !important;
+    border-color: #45475a !important;
+}
+
+.error {
+    background-color: #313244 !important;
+    color: #f38ba8 !important;
+    border-color: #f38ba8 !important;
+}
+
+#page_content {
+    background-color: #1e1e2e !important;
+}
+
+.login-container,
+#loginform {
+    background-color: #1e1e2e !important;
+    color: #cdd6f4 !important;
+}
+
+fieldset {
+    background-color: #1e1e2e !important;
+    border-color: #45475a !important;
+    color: #cdd6f4 !important;
+}
+
+fieldset legend {
+    background-color: #313244 !important;
+    color: #cdd6f4 !important;
+}
+
+button,
+input[type="submit"],
+input[type="button"] {
+    background-color: #89b4fa !important;
+    color: #1e1e2e !important;
+    border-color: #89b4fa !important;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #b4befe !important;
+}

@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wr-slot-manager/slot-fields",
+	"version": "1.0.0",
+	"title": "Slot Fields",
+	"category": "widgets",
+	"icon": "games",
+	"description": "Slot meta fields editor - featured image, provider, rating, RTP, wagers.",
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"reusable": false,
+		"inserter": false
+	},
+	"attributes": {},
+	"textdomain": "wr-slot-manager",
+	"editorScript": "wr-sm-slot-fields-editor"
+}

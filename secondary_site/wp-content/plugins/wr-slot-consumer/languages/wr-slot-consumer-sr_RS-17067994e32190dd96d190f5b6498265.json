@@ -1,0 +1,230 @@
+{
+  "translation-revision-date": "2026-04-07 00:00+0000",
+  "generator": "script",
+  "source": "assets/src/js/blocks/slot-grid/index.ts",
+  "domain": "wr-slot-consumer",
+  "locale_data": {
+    "wr-slot-consumer": {
+      "": {
+        "domain": "wr-slot-consumer",
+        "lang": "sr_RS"
+      },
+      "Background": [
+        "Позадина"
+      ],
+      "Background Color": [
+        "Боја позадине"
+      ],
+      "Block Background": [
+        "Позадина блока"
+      ],
+      "Block Border Radius": [
+        "Заобљеност ивице блока"
+      ],
+      "Block Padding": [
+        "Унутрашњи размак блока"
+      ],
+      "Blur": [
+        "Замагљење"
+      ],
+      "Border Color": [
+        "Боја ивице"
+      ],
+      "Border Radius": [
+        "Заобљеност ивице"
+      ],
+      "Box Shadow": [
+        "Сенка оквира"
+      ],
+      "Box Shadow CSS": [
+        "CSS сенке оквира"
+      ],
+      "Button": [
+        "Дугме"
+      ],
+      "CSS Background": [
+        "CSS позадина"
+      ],
+      "Card Background": [
+        "Позадина картице"
+      ],
+      "Card Hover": [
+        "Ефекат при преласку"
+      ],
+      "Card Styling": [
+        "Стилизовање картице"
+      ],
+      "Click Action": [
+        "Акција при клику"
+      ],
+      "Clicking \"More Info\" will open a popup with all slot details.": [
+        "Кликом на \\"
+      ],
+      "Color": [
+        "Боја"
+      ],
+      "Columns": [
+        "Колоне"
+      ],
+      "Custom CSS (gradient etc.)": [
+        "Прилагођени CSS (градијент итд.)"
+      ],
+      "Custom Shadow (raw CSS)": [
+        "Прилагођена сенка (CSS)"
+      ],
+      "Detail Page URL": [
+        "URL странице детаља"
+      ],
+      "Display": [
+        "Приказ"
+      ],
+      "Display slot games in a responsive grid with full styling controls.": [
+        "Прикажите слот игре у респонзивној мрежи са пуном контролом стилова."
+      ],
+      "Enable Background": [
+        "Укључи позадину"
+      ],
+      "Font Size (px)": [
+        "Величина фонта (px)"
+      ],
+      "Full Star Color": [
+        "Боја пуне звездице"
+      ],
+      "Gap (px)": [
+        "Размак (px)"
+      ],
+      "Half Star Color": [
+        "Боја полу звездице"
+      ],
+      "Hover Background": [
+        "Позадина при преласку"
+      ],
+      "Hover Border Color": [
+        "Боја ивице при преласку"
+      ],
+      "Hover Shadow CSS": [
+        "CSS сенке при преласку"
+      ],
+      "Hover State": [
+        "Стање при преласку"
+      ],
+      "Hover Text Color": [
+        "Боја текста при преласку"
+      ],
+      "Infinite Scroll": [
+        "Бесконачно скроловање"
+      ],
+      "Info": [
+        "Инфо"
+      ],
+      "Info Font Size": [
+        "Величина инфо фонта"
+      ],
+      "Info Text Color": [
+        "Боја инфо текста"
+      ],
+      "Inner Padding": [
+        "Унутрашњи размак"
+      ],
+      "Inset": [
+        "Унутрашња"
+      ],
+      "Items Per Page": [
+        "Ставки по страници"
+      ],
+      "Lift (translateY px)": [
+        "Подизање (translateY px)"
+      ],
+      "Line Height": [
+        "Висина линије"
+      ],
+      "Load More": [
+        "Учитај још"
+      ],
+      "Load More Type": [
+        "Тип учитавања"
+      ],
+      "More Info Action": [
+        "Акција више информација"
+      ],
+      "More Info Button": [
+        "Дугме више информација"
+      ],
+      "Number of slots shown per page/load.": [
+        "Број слотова приказаних по страници/учитавању."
+      ],
+      "Off": [
+        "Искључено"
+      ],
+      "Open Detail Page": [
+        "Отвори страницу детаља"
+      ],
+      "Outer Padding": [
+        "Спољашњи размак"
+      ],
+      "Page Numbers": [
+        "Бројеви страница"
+      ],
+      "Pagination": [
+        "Пагинација"
+      ],
+      "Provider": [
+        "Провајдер"
+      ],
+      "Provider Text": [
+        "Текст провајдера"
+      ],
+      "Shadow Color": [
+        "Боја сенке"
+      ],
+      "Show Button": [
+        "Прикажи дугме"
+      ],
+      "Show Popup": [
+        "Прикажи искачући прозор"
+      ],
+      "Slot ID appended as ?slot_detail=ID": [
+        "ID слота се додаје као ?slot_detail=ID"
+      ],
+      "Slots Grid": [
+        "Мрежа слотова"
+      ],
+      "Sort By": [
+        "Сортирај по"
+      ],
+      "Spread": [
+        "Ширење"
+      ],
+      "Star Border Color": [
+        "Боја ивице звездице"
+      ],
+      "Star Size (px)": [
+        "Величина звездице (px)"
+      ],
+      "Stars": [
+        "Звездице"
+      ],
+      "Style": [
+        "Стил"
+      ],
+      "Text Color": [
+        "Боја текста"
+      ],
+      "Text Shadow": [
+        "Сенка текста"
+      ],
+      "Text Shadow Color": [
+        "Боја сенке текста"
+      ],
+      "Title": [
+        "Наслов"
+      ],
+      "Title Color": [
+        "Боја наслова"
+      ],
+      "Weight": [
+        "Дебљина"
+      ]
+    }
+  }
+}

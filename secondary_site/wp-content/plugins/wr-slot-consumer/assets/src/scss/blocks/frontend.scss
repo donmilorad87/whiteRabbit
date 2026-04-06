@@ -1,0 +1,5 @@
+/**
+ * Combined frontend styles for all blocks.
+ */
+@use 'slot-grid/style' as grid;
+@use 'slot-detail/style' as detail;
