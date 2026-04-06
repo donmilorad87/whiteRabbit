@@ -3,9 +3,3 @@ vendor/
 
 # Node
 assets/src/node_modules/
-
-# Build output
-assets/admin/js/
-assets/admin/css/
-assets/editor/js/
-assets/editor/css/

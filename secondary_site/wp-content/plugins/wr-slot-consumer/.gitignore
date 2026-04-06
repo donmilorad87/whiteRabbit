@@ -5,11 +5,5 @@ vendor/
 assets/src/node_modules/
 e2e-tests/node_modules/
 
-# Build output
-assets/admin/js/
-assets/admin/css/
-assets/blocks/js/
-assets/blocks/css/
-
 # Playwright
 e2e-tests/test-results/
