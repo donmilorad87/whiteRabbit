@@ -1,0 +1,101 @@
+{
+  "env": {
+    "ENABLE_TOOL_SEARCH": "true",
+    "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "1600000"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(docker compose exec:*)",
+      "Bash(docker compose restart:*)",
+      "Bash(curl:*)",
+      "Bash(mkdir:*)",
+      "Bash(docker compose logs:*)",
+      "Bash(docker compose build:*)",
+      "Bash(docker compose:*)",
+      "Bash(grep:*)",
+      "Bash(mv:*)",
+      "Bash(tree:*)",
+      "Bash(docker volume rm:*)",
+      "Bash(timedatectl status:*)",
+      "Bash(cargo check:*)",
+      "WebFetch(domain:hub.docker.com)",
+      "Bash(docker pull bitnami/kafka:3.9)",
+      "Bash(docker pull:*)",
+      "Bash(docker search:*)",
+      "WebSearch",
+      "WebFetch(domain:cdn.jsdelivr.net)",
+      "Bash(find:*)",
+      "Bash(chmod:*)",
+      "Skill(update_readme_and_claude_mds)",
+      "Skill(backend)",
+      "Skill(frontend)",
+      "Skill(database)",
+      "Skill(tester)",
+      "Skill(security-review)",
+      "Skill(docs)",
+      "Skill(docker)",
+      "Skill(kafka)",
+      "Skill(websockets)",
+      "Skill(rust-games)",
+      "Bash(/home/milner/.claude/statusline.sh)",
+      "Bash(printf:*)",
+      "Bash(rmdir:*)",
+      "Bash(timeout 10 cat:*)",
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "mcp__db__search_objects",
+      "mcp__db__execute_sql",
+      "Bash(sudo apt update:*)",
+      "Bash(sudo apt install:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_close",
+      "mcp__playwright__browser_tabs",
+      "Bash(pkill:*)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_type",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_resize",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_wait_for",
+      "Bash(npm test:*)",
+      "Bash(npx playwright test:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker logs:*)",
+      "Bash(./blazing_sun/src/frontend/build-frontend.sh:*)",
+      "Bash(SQLX_OFFLINE=true cargo check:*)",
+      "Bash(sudo chmod:*)",
+      "Bash(npx vite:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node:*)",
+      "Bash(git stash:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "playwright",
+    "context7",
+    "db",
+    "figma",
+    "github"
+  ],
+  "hooks": {
+    "SubagentStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/milner/Desktop/rust/.claude/hooks/agent-colors.sh",
+            "statusMessage": "Initializing agent..."
+          }
+        ]
+      }
+    ]
+  },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true
+  }
+}
